@@ -332,7 +332,6 @@ margin-bottom: 30px;
 #services{
 width: 100%;
 background-color:#f0f0f0;
-margin-bottom: 30px;
 }
 #services .card{
 margin-top: 60px;
@@ -883,9 +882,7 @@ h6 {
 
 
 /* product detail page */
-.pdt-dtl{
-  padding-top: 40px;
-}
+
 
 .single_product{
   margin-top: 50px;
@@ -978,12 +975,15 @@ h6 {
 
 
 /* Login page */
-.login-pg,.about-pg,{
+.about-pg,{
    padding: 100px 0 20px 0;
  }
- .blog-pg-dtl,.login-pg{
+.login-pg{
 padding: 100px 0 20px 0;
  }
+  .blog-pg-dtl,.login-pg,.cart-pg{
+    padding-top: 20px;
+  }
 
  .logbx{
   display: flex;
@@ -1167,9 +1167,7 @@ padding: 100px 0 20px 0;
 }
 
 /* cart page */
-.cart-pg{
-   padding: 100px 0 20px 0;
-}
+
 
 .cart-bx  .title {
     margin-bottom: 5vh;
@@ -1343,8 +1341,7 @@ background-color: #8bc34a;
     float: left;
     font-family: 'Lato', Arial, sans-serif;
     font-size: 16px;
-    margin: 10px 1%;
-    max-width: 310px;
+    margin: 10px 0;
     min-width: 250px;
     overflow: hidden;
     position: relative;
